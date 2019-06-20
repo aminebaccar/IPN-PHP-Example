@@ -10,10 +10,10 @@ $ipn->useSandbox();
 $verified = $ipn->verifyIPN();
 error_log("printed: ".$verified);
 if ($verified) {
-    $servername = "api.tangorythm.com";
-	$username = "sdiuser";
-	$password = "Sdi2019user";
-	$dbname = "sdi";
+    $servername = "<omitted>";
+	$username = "<omitted>";
+	$password = "<omitted>";
+	$dbname = "<omitted>";
 	$idFacture = $_POST['custom'];
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
